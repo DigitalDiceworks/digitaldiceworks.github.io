@@ -50,7 +50,7 @@ page_layout: page
 # Format titles with titlecase?
 titlecase: true
 
-gems: 
+plugins: 
   - jekyll-paginate
 
 # Exclude from processing.
