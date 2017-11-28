@@ -14,6 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Digital Diceworks
+logo: assets/img/homelogo.png
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -30,10 +31,16 @@ github:  DigitalDiceworks
 #   To create sub categories. add a submenu item
 # See the example
 menu:
-  - title: 'Home'
-    url: '/'
+  - title: 'Natural Locomotion'
+    url: '/NLM'
+  - title: 'Demos'
+    url: '/demos'
+  - title: 'Blog'
+    url: '/blog'
   - title: 'About'
     url: '/about'
+  - title: 'Jobs'
+    urt: '/jobs'
 
 # Build settings
 markdown: kramdown
@@ -54,7 +61,7 @@ titlecase: true
 # Amount of post to show on home page
 paginate: 5
 
-# if true, shows the floatting share buttons
+# if true, shows the floating share buttons
 float_share: true
 
 # Exclude from processing.

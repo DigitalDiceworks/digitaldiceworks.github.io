@@ -582,13 +582,14 @@ ul.social-buttons li a:active {
 }
 ///sections
 .logo{
-  width: $menu-height;
-  height: $menu-height;
+  width: $menu-height + 100;
+  height: $menu-height + 100;
   float: left;
   padding: 10px;
 }
 .header-item-container{
 	height: 100%;
+	background-image: url("../img/Header.png");
 }
 .header-item{
 	height: 100%;
