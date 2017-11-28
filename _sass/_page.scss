@@ -530,7 +530,7 @@ ul.social-buttons li a:active {
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: $menu-height;
+	height: 116px; //change header bar height - originally $menu-height
 	z-index: 20;
 	ul {
 		margin: 0 auto;
@@ -543,7 +543,7 @@ ul.social-buttons li a:active {
 	}
 }
 .header-menu-top{
-	background-color: $menu-top;
+	background-image: url("../img/Header.png"); //change extended headbar color/image - originally background-color: $menu-top;
 	box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.4);
 }
 
@@ -589,7 +589,7 @@ ul.social-buttons li a:active {
 }
 .header-item-container{
 	height: 100%;
-	background-image: url("../img/Header.png");
+	background-image: url("../img/Header.png"); //header bg image
 }
 .header-item{
 	height: 100%;
