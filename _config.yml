@@ -32,7 +32,7 @@ github:  DigitalDiceworks
 # See the example
 menu:
   - title: 'Natural Locomotion'
-    url: '/NLM'
+    url: '/nlm'
   - title: 'Demos'
     url: '/demos'
   - title: 'Blog'
@@ -40,7 +40,7 @@ menu:
   - title: 'About'
     url: '/about'
   - title: 'Jobs'
-    urt: '/jobs'
+    url: '/jobs'
 
 # Build settings
 markdown: kramdown
