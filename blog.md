@@ -1,5 +1,5 @@
 ---
-layout: Blog
+layout: blog
 title: DDW News
 permalink: /blog/
 ---
