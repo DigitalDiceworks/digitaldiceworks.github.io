@@ -594,6 +594,9 @@ ul.social-buttons li a:active {
 .header-item{
 	height: 100%;
 	display: none;
+	a {
+		color: white;
+	}
 	@media #{$large} {
 		display: block;
 	}
