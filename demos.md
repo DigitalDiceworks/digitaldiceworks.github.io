@@ -3,4 +3,11 @@ layout: page
 title: Digital Diceworks
 permalink: /demos/
 ---
-MAKE GAMES TO FILL HERE
+
+# Demos
+
+![NLMDemo](../assets/img/NLMDemo.png)
+Download (.zip)
+
+![NinjaOpsDemo](../assets/img/NinjaOpsDemo.png)
+Download (.zip)
