@@ -138,7 +138,7 @@ header .entry-meta {
 	.entry-content {
 		margin: 40px 2px 20px 2px;
 		padding: 10px 15px;
-		background-color: $white;
+		background-color: #3c3c3c; //$white
 		box-shadow: 0 0 0 0, 0 6px 12px rgba($black,0.1);
 		@include rounded(3px);
 		@media #{$medium} {
@@ -359,7 +359,7 @@ ul.social-buttons li a:active {
 		}
 	}
 	article {
-		background-color: $white;
+		background-color: $white;  //
 		box-shadow: 0 0 0 0, 0 6px 12px rgba($base-color,0.1);
 		@include rounded(3px);
 		margin-bottom: 20px;
@@ -548,6 +548,7 @@ ul.social-buttons li a:active {
 }
 
 .header-menu-overflow{
+	background-image: url("../img/Header.png");
 	background-color: $menu-overflow;
 	z-index: 100;
 	box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.4);

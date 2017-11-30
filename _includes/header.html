@@ -45,7 +45,7 @@
       <li class="header-item"><a href="{{site.url}}/search"><h3><i class="fa fa-search"></i></h3></a></li>
     </ul>
   </div>
-<div class="entry-header">
+<!-- <div class="entry-header">    //Site.Title Header Bar - Commenting out vs removing just in case we need it later.
   <div class="header-title">
     <div class="header-title-wrap">
       <h1>{{ page.title }}</h1>
@@ -61,14 +61,14 @@
           {% assign readtime = content | strip_html | number_of_words | divided_by:site.words_per_minute %}
           Reading time ~{% if readtime <= 1 %}1 minute{% else %}{{ readtime }} minutes{% endif %}
         </p><!-- /.entry-reading-time -->
-      {% else %}
+      <!-- {% else %}
           <p class="entry-reading-time">
             &nbsp;
           </p><!-- /.entry-reading-time -->
-      {% endif %}
+      <!-- {% endif %}
     </div><!-- /.header-title-wrap -->
-  </div><!-- /.header-title -->
-</div><!-- /.entry-header -->
+  <!-- </div><!-- /.header-title -->
+<!-- </div><!-- /.entry-header --> --> --> --> --> -->
 
 
 <nav id="menu" style="display: none">
