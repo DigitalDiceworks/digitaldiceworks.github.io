@@ -33,8 +33,8 @@ github:  DigitalDiceworks
 menu:
   - title: 'Natural Locomotion'
     url: '/nlm'
-  - title: 'Demos'
-    url: '/demos'
+  - title: 'Games'
+    url: '/games'
   - title: 'Blog'
     url: '/blog'
   - title: 'About'
