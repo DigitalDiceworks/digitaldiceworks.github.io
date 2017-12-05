@@ -42,6 +42,8 @@ menu:
     url: '/about'
   - title: 'Jobs'
     url: '/jobs'
+  - title: 'Contact Us'
+    url: '/contact'
 
 # Build settings
 markdown: kramdown
