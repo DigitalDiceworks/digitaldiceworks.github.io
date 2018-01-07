@@ -1,3 +1,7 @@
-_site
-.sass-cache
-.jekyll-metadata
+# python related
+venv
+**/__pycache__
+.vscode
+.cache
+
+config/local_config.py
