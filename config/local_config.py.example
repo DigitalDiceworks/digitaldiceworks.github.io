@@ -1,0 +1,10 @@
+# General app settings
+SECRET_KEY = 'random_characters'
+DEBUG = True
+ALLOWED_HOSTS = []
+
+EMAIL_USE_TLS = True
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'GMAIL_USERNAME'
+EMAIL_HOST_PASSWORD = 'GMAIL_PASSWORD or app password'
+EMAIL_PORT = 587
