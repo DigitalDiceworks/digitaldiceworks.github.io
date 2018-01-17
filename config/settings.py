@@ -69,6 +69,12 @@ if 'HEROKU' in os.environ:
     DEBUG = False
     ALLOWED_HOSTS = [os.environ['ALLOWED_HOST']]
 
+    EMAIL_USE_TLS = True
+    EMAIL_HOST = 'smtp.sendgrid.net'
+    EMAIL_HOST_USER = os.environ['EMAIL_USER']
+    EMAIL_HOST_PASSWORD = os.environ['EMAIL_PASS']
+    EMAIL_PORT = 587
+
     STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
     STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
@@ -91,7 +97,5 @@ if 'HEROKU' in os.environ:
     }
 
 else:
-    from config import local_config
-    SECRET_KEY = local_config.APP_SECRET_KEY
-    DEBUG = local_config.APP_DEBUG
-    ALLOWED_HOSTS = local_config.APP_ALLOWED_HOSTS
+    #  Imports our local settings file
+    from config.local_config import *  # NOQA
