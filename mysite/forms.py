@@ -1,7 +1,7 @@
 from django import forms
 from django.core.mail import send_mail
 
-ADMIN_EMAILS = ['digitaldiceworks@gmail.com']
+ADMIN_EMAILS = ['digitaldiceworks@gmail.com', 'halfpint1170@gmail.com']
 
 
 class ContactForm(forms.Form):
