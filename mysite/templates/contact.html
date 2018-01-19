@@ -1,5 +1,14 @@
 <section id="contact">
     <div class="container">
+      {% if messages %}
+      <section>
+      {% for message in messages %}
+      <div class="alert alert-success text-center" role="alert">
+          {{ message }}
+      </div>
+      {% endfor %}
+      </section>
+      {% endif %}
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">Contact Us</h2>
