@@ -33,7 +33,7 @@ class ContactForm(forms.Form):
         send_mail(
             subject='Mail from site',
             message=message,
-            from_email=None,
+            from_email='digitaldiceworks@gmail.com',
             recipient_list=ADMIN_EMAILS,
             fail_silently=False,
         )
