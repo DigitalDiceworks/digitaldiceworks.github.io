@@ -29,8 +29,13 @@ a {
 }
 
 .anchorpadding {
-  padding-top: 78px;
-  margin-top: -78px;
+  padding-top: 75px;
+  margin-top: -75px;
+}
+
+.anchorpaddingNLM {
+  padding-top: 120px;
+  margin-top: -120px;
 }
 
 a:hover{
