@@ -1,0 +1,201 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Digital Diceworks</title>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="{% static "css/main.css" %}">
+</head>
+<body>
+
+<!-- Header Banner -->
+<header class="jumbotron">
+  <div class="container text-center">
+    <img width="500" src="{% static "img/NLS.png" %}"/>
+    <h3>The Freedom to Explore Virtual Worlds</h3>
+    <div class="download">
+      <h5>System Demo Now Available!</h5>
+      <div class="btn-group btn-group-lg">
+        <button type="button" download="files/Digtial Diceworks_Natural Locomotion _Vive.zip" class="btn btn-primary">HTC Vive</button>
+        <button type="button" class="btn btn-primary" disabled>Oculus Rift</button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Nav Bar -->
+<nav class="navbar fixed-top navbar-expand-sm" style="background-color: #fff;">
+  <div class="container">
+    <a class="navbar-brand" href="#NaturalLocomotion">
+      <img class="logo" width="200" src="{% static "img/DiceworksLogo.svg" %}"/>
+    </a>
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active" href="#NaturalLocomotion"><b>Natural Locomotion</b></a>
+      <a class="nav-item nav-link" href="#DevTeam">Team</a>
+      <a class="nav-item nav-link" href="#Services">Services</a>
+      <a class="nav-item nav-link" href="#Contact">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<!-- Natural Locomotion -->
+<section class="container">
+  <div class="natural">
+    <div class="highlights text-center">
+      <div class="row">
+        <div class="col-sm-4 text-muted">
+          <img width="100" src="{% static "img/controller.png" %}"/>
+          <h4>Easy to Use</h4>
+          <p>Intuitive system that is easy to learn and use that offers many advanced possibilites</p>
+        </div>
+        <div class="col-sm-4 text-muted">
+          <img width="100" src="{% static "img/stomach.png" %}"/>
+          <h4>Improved Comfort</h4>
+          <p>Minimal discomfort to overcome long experience durations that extneds to sensative users</p>
+        </div>
+        <div class="col-sm-4 text-muted">
+          <img width="100" src="{% static "img/directional.png" %}"/>
+          <h4>Motion Freedom</h4>
+          <p>Offers a full range of motion with perfect control that makes all of virtual space accessible</p>
+        </div>
+      </div>
+    </div>
+    <div class="row text-justify">
+      <div class="main">
+        <div class+"spacer">
+        <h4>What Is Natural Locomotion?</h4>
+        <p>Natural Locomotion (NLM) is an innovative movement system designed for use within Virtual Reality (VR) environments.  It was designed to meet the need for a better way explore virtual worlds while reducing discomfort but still maintaining the immers ive experience.  NLM is based on the observations of natural movement in the real world, simplfied for ease of use but robust enough to give you the freedom to perform fantastic feats. We took those observations and noticed something very important to creating the NLM system, Initial Motion.  When you start walking in the real world, you start by taking small step, if you were going to start running you were start with a bigger step.  The difference in these “initial motions” is the distance at which you moved from where you started, your origin.  This is the core concept of NLM. </p>
+        </div>
+        <div class"spacer">
+        <img class="diagram" width="210" src="{% static "img/NLMDiagram.png" %}"/>
+        <h4>How Do You Use Natural Locomotion?</h4>
+        <p>When the user activates the system, they don’t have to take steps to move around but instead just shift their weight in the initial motion of what they’re trying to do.  By doing the initial motion into their desired direction, the user is reconnecting themselves mentally to their avatar.  This greatly reduces the amount of discomfort because the avatar is reacting to the natural motions of the user as an extension of actions. On the technical side, when the user activates the system (within our demo), they’re creating the origin point where they’re holding the controller. As they move the controller away from this point, their avatar is going to start moving in that direction. The further they move away from the origin, the faster the avatar goes.  The origin point can be created from any tracked device but we’ve found the most utility in creating it from the controllers.</p>
+        </div>
+        <div class"spacer">
+        <img class="rightimage" width="210" src="{% static "img/VisitUs.png" %}"/>
+        <h4>Where Can I Try Natural Locomotion?</h4>
+        <p>While we enjoy explaining the system, the best way to confirm what we’ve just hit you with is to try it!  There are currently a few ways that you can try our system.  The first is contacting us! We are California based, available for demos from the San Francisco Bay Area through to the Sacramento Valley. The Second is coming out to one of our demo events! Check our Facebook or Twitter pages to find out when the next one will be!  Lastly, we proud to announce the release of our system demo! Now available to everyone to try on their HTC Vive systems!  Oculus Rift support coming soon.</p>
+        </div>
+      </div>
+    </div>
+    <div class="download text-center">
+      <img width="350" src="{% static "img/NLS.png" %}"/>
+      <h6>System Demo Now Available!</h6>
+      <div class="btn-group btn-group-lg">
+        <button type="button" class="btn btn-primary">HTC Vive</button>
+        <button type="button" class="btn btn-primary" disabled>Oculus Rift</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Team Profiles -->
+<section class="team">
+  <div class="container text-center">
+    <div class="title">
+      <img width="350" src="{% static "img/DDW.png" %}"/>
+      <h6>We Deliver Awesome!</h6>
+    </div>
+    <div class="members">
+      <div class="row">
+        <div class="col-sm-4">
+          <img class="rounded-circle" width="200" src="{% static "img/CarlosMolina.jpg" %}"/>
+          <h4>Carlos F. Molina</h4>
+          <h6>Studio Lead</h6>
+          <a href="https://www.linkedin.com/in/carlosmolina3d/">
+            <img class="rounded-circle" width="30" src="{% static "img/linkedin.jpg" %}"/>
+          </a>
+        </div>
+        <div class="col-sm-4">
+          <img class="rounded-circle" width="200" src="{% static "img/JohannesRobbins.jpg" %}"/>
+          <h4>Johannes Robbins</h4>
+          <h6>Senior Level Designer</h6>
+          <a href="https://www.linkedin.com/in/johannes-robbins-3102221/">
+            <img class="rounded-circle" width="30" src="{% static "img/linkedin.jpg" %}"/>
+          </a>
+        </div>
+        <div class="col-sm-4">
+          <img class="rounded-circle" width="200" src="{% static "img/RonnieSmith.jpg" %}"/>
+          <h4>Ronnie Smith</h4>
+          <h6>Senior Programmer</h6>
+          <a href="https://www.linkedin.com/in/ronnie-smith-ba095310/">
+            <img class="rounded-circle" width="30" src="{% static "img/linkedin.jpg" %}"/>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-12 text-justify">
+      <p>We are a small game development team that is dedicated to making complete gaming experiences. Our current endevour is creating content related to virtual reality. We intend to tackle the current challenges facing VR games while ensuring that our solutions apply to the minimal hardware needed. (HTC Vive/ Occulus Rift)</p>
+    </div>
+    <div class"discord text-center">
+      <h5>Come join us on Discord!</h5>
+      <a href="http://bit.ly/DDWDiscord">
+        <img width="200" src="{% static "img/discord.png" %}"/>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Services -->
+<section class="container">
+  <div class="services">
+    <div>
+      <img class="rightimage" width="300" src="{% static "img/consulting.png" %}"/>
+      <h4> Digital Diceworks offers a Variety of Services!</h4>
+    </div>
+      <div>
+      <h6> That include but are not limited to: </h6>
+      <ul>
+        <li><h5>System Intergration Consulting!</h5>
+        <p> We are the knowledge base for Natural Locomotion.  While the core of our system will be available for use as an open source SDK, we offer consulting services for integration into projects that require custom adjustments.</p></li>
+        <li><h5>Rapid Prototyping!</h5>
+        <p> Digital Diceworks also specializes in the field of rapid prototyping for gaming experiences. So if you've really enjoyed our system and/or have great game idea but don't have a team to create a prototype, we are available for hire!</p></li>
+      </ul>
+      <h4> Our current Toolset includes:</h4>
+        <ul>
+          <li>Unity3D</li>
+          <li>Autodesk Maya</li>
+          <li>Adobe Photoshop</li>
+    </div>
+  </div>
+</section>
+
+{% include "contact.html" %}
+</body>
+
+<footer class="fixed-bottom" style="background-color: #fff;">
+    <div class="container">
+        <div class="row text">
+            <div class="col-md-5">
+                <span class="copyright">Copyright &copy; Digital Diceworks 2018</span>
+            </div>
+            <div class="col-md-2">
+                <div class="row">
+                        <a href="https://twitter.com/DigiDiceworks">
+                            <img class="rounded-circle" width="40" src="{% static "img/twitter.jpg" %}"/>
+                        </a>
+                        <a href="https://www.facebook.com/Digital-Diceworks-2001428196760669/">
+                            <img class="rounded-circle" width="40" src="{% static "img/facebook.jpg" %}"/>
+                        </a>
+                        <a href="https://www.linkedin.com/company/18320768/">
+                            <img class="rounded-circle" width="40" src="{% static "img/linkedin.jpg" %}"/>
+                        </a>
+                </div>
+            </div>
+            <div class="col-md-5 text-right">
+                <ul class="list-inline quicklinks">
+                    <li class="list-inline-item">
+                        <a href="#">Privacy Policy</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#">Terms of Use</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+</html>
