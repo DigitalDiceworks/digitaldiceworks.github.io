@@ -81,7 +81,7 @@ nav {
   position: relative;
   display: flex;
   align-items: center;
-  background-image: url('../../static/img/headerbg.jpg');
+  background-image: url('../img/headerbg.jpg');
   background-size: cover;
   color: #ffffff;
   margin-top: 100px;
@@ -200,7 +200,7 @@ nav {
   position: relative;
   display: flex;
   align-items: center;
-  background-image: url('../../static/img/contactbg.jpg');
+  background-image: url('../img/contactbg.jpg');
   background-size: cover;
   color: #ffffff;
   height: 400px;
