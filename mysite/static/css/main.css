@@ -28,8 +28,9 @@ a {
   color: #868e96;
 }
 
-a .anchorpadding{
-  margin-top: -200px;
+.anchorpadding {
+  padding-top: 78px;
+  margin-top: -78px;
 }
 
 a:hover{
