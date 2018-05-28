@@ -82,34 +82,54 @@
         </div>
       </div>
     </div>
-    <div class="embed-responsive embed-responsive-16by9">
-      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/lT7E4pqVR9E?rel=0&amp;showinfo=0"></iframe>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/lT7E4pqVR9E?rel=0&amp;showinfo=0"></iframe>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/UkyUq6jjpnM?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
     </div>
     <a class="anchorpaddingNLM" id="NaturalLocomotion"></a>
     <div class="row text-justify">
       <div class="main">
-        <div class+"spacer">
+        <div class="spacer">
         <h4>What Is Natural Locomotion?</h4>
-        <p>Natural Locomotion (NLM) is an innovative movement system designed for use within Virtual Reality (VR) environments.  It was designed to meet the need for a better way explore virtual worlds while reducing discomfort but still maintaining the immers ive experience.  NLM is based on the observations of natural movement in the real world, simplfied for ease of use but robust enough to give you the freedom to perform fantastic feats. We took those observations and noticed something very important to creating the NLM system, Initial Motion.  When you start walking in the real world, you start by taking small step, if you were going to start running you were start with a bigger step.  The difference in these “initial motions” is the distance at which you moved from where you started, your origin.  This is the core concept of NLM. </p>
+        <p>Natural Locomotion (NLM) is an innovative movement system designed for use within Virtual Reality (VR) environments.  It was designed to meet the need for a better way explore virtual worlds while reducing discomfort but still maintaining the immersive experience.  NLM is based on the observations of natural movement in the real world, simplfied for ease of use but robust enough to give you the freedom to perform fantastic feats. We took those observations and noticed something very important to creating the NLM system, Initial Motion.  When you start walking in the real world, you start by taking small step, if you were going to start running you were start with a bigger step.  The difference in these “initial motions” is the distance at which you moved from where you started, your origin.  This is the core concept of NLM. </p>
         </div>
-        <div class"spacer">
+        <div class="spacer">
         <img class="diagram img-fluid" width="210" src="{% static "img/NLMDiagram.png" %}"/>
         <h4>How Do You Use Natural Locomotion?</h4>
         <p>When the user activates the system, they don’t have to take steps to move around but instead just shift their weight in the initial motion of what they’re trying to do.  By doing the initial motion into their desired direction, the user is reconnecting themselves mentally to their avatar.  This greatly reduces the amount of discomfort because the avatar is reacting to the natural motions of the user as an extension of actions. On the technical side, when the user activates the system (within our demo), they’re creating the origin point where they’re holding the controller. As they move the controller away from this point, their avatar is going to start moving in that direction. The further they move away from the origin, the faster the avatar goes.  The origin point can be created from any tracked device but we’ve found the most utility in creating it from the controllers.</p>
         </div>
-        <div class"spacer">
+        <div class="spacer">
         <img class="rightimage img-fluid" width="210" src="{% static "img/VisitUs.png" %}"/>
         <h4>Where Can I Try Natural Locomotion?</h4>
-        <p>While we enjoy explaining the system, the best way to confirm what we’ve just hit you with is to try it!  There are currently a few ways that you can try our system.  The first is contacting us! We are California based, available for demos from the San Francisco Bay Area through to the Sacramento Valley. The Second is coming out to one of our demo events! Check our Facebook or Twitter pages to find out when the next one will be!  Lastly, we proud to announce the release of our system demo! Now available to everyone to try on their HTC Vive systems!  Oculus Rift support coming soon.</p>
+        <p>While we enjoy explaining the system, the best way to confirm what we’ve just hit you with is to try it!  There are currently a few ways that you can try our system.  The first is contacting us! We are California based, available for demos from the San Francisco Bay Area through to the Sacramento Valley. The Second is coming out to one of our demo events! Check our Facebook or Twitter pages to find out when the next one will be!  Lastly, we are proud to announce the release of our system demo! Now available for everyone to try on their HTC Vive systems!(Oculus Rift support coming soon)</p>
+        <p>If you're interested in helping us make improvements, Natural Locomotion is fully open source on GitHub!</p>
         </div>
       </div>
     </div>
-    <div class="download text-center">
-      <img class="img-fluid" width="350" src="{% static "img/NLS.png" %}"/>
-      <h6>System Demo Now Available!</h6>
-      <div class="btn-group btn-group-lg">
-        <button type="button" class="btn btn-primary">HTC Vive</button>
-        <button type="button" class="btn btn-primary" disabled>Oculus Rift</button>
+    <div class="container">
+      <div class="row">
+        <div class="download col-sm-6 text-center">
+          <img class="img-fluid" width="350" src="{% static "img/NLS.png" %}"/>
+          <h6>System Demo Now Available!</h6>
+          <div class="btn-group btn-group-lg">
+            <a type="button" href="https://github.com/DigitalDiceworks/digitaldiceworks.github.io/releases/download/v1.1/Digtial.Diceworks_Natural.Locomotion._Vive.zip" class="btn btn-primary">HTC Vive</a>
+            <a type="button" href="" class="btn btn-primary disabled">Oculus Rift</a>
+          </div>
+        </div>
+        <div class="github col-sm-6 text-center">
+          <img class="img-fluid" width="300" src="{% static "img/NLMgithub.png" %}"/>
+          <a type="button" href="https://github.com/DigitalDiceworks/natural-locomotion" class="btn btn-primary">Now Available on GitHub!</a>
+        </div>
       </div>
     </div>
   </div>
@@ -211,6 +231,9 @@
                         </a>
                         <a href="https://www.linkedin.com/company/18320768/">
                             <img class="rounded-circle" width="40" src="{% static "img/LinkedIn.jpg" %}"/>
+                        </a>
+                        <a href="https://github.com/DigitalDiceworks">
+                            <img class="rounded-circle" width="40" src="{% static "img/GitHub.jpg" %}"/>
                         </a>
                 </div>
             </div>
